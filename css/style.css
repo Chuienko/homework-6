@@ -59,6 +59,7 @@ address {
 
 a {
   color: currentColor;
+  text-decoration: none;
 }
 
 button {
@@ -711,7 +712,7 @@ margin-right: 0;} */
 }
 
 .mailing {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .mail-btn {
@@ -773,6 +774,10 @@ margin-right: 0;} */
   align-items: center;
 }
 
+.model-close:hover {
+  fill: var(--accent-color);
+}
+
 .title-modal {
   font-weight: 700;
   font-size: 20px;
@@ -808,6 +813,10 @@ margin-right: 0;} */
   padding: 12px 16px;
   margin-top: 4px;
 
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
@@ -832,13 +841,14 @@ margin-right: 0;} */
 
 .modal-form {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 14px;
   letter-spacing: 0.01em;
   color: var(--item-color);
 }
 
 .input-wrap {
   position: relative;
+  margin-top: 4px;
 }
 
 .imput-ikon {
@@ -854,6 +864,10 @@ margin-right: 0;} */
   align-items: center;
   line-height: 2;
   color: var(--item-color);
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  justify-content: center;
 }
 
 .check-taxt span {
@@ -865,6 +879,9 @@ margin-right: 0;} */
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
 }
 
 .check-ikon {
